@@ -15,7 +15,10 @@ button {
   font-family: Roboto, sans-serif;
   border: none;
   border-radius: 8px;
+  padding: 8px;
   background: #eee;
+  padding: 8px 15px;
+  
   
   
 }
@@ -27,6 +30,7 @@ input {
   width: 400px;
   background-color: white;
   margin-bottom: 10px;
+  margin: 15px;
 }
 
 .header{
@@ -37,7 +41,7 @@ input {
 .footer{
   display: flex;
   justify-content: space-between;
-  background-color: lightgray;
+  background-color: #eee;
 }
 
 .left-links,.right-links{
@@ -68,9 +72,9 @@ a{
 }
 
 .left-links{
-  margin-left: -30px;
+  margin-left: -20px;
 }
 
 .right-links{
-  margin-right: 10px;
+  margin-right: 20px;
 }
